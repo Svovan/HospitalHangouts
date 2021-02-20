@@ -4,8 +4,11 @@ import LoginComponent from '../components/LoginComponent';
 import '../stylesheets/Login.css'; 
 
 class Login extends React.Component {
+	componentDidMount() {
+		document.body.style.backgroundImage = "url('/find-profile-background.jpg')";
+	}
+	
 	render() {
-
 		return (
 			<div class="login-page">
 				<img class="hospital-image" src={process.env.PUBLIC_URL + '/keck.jpg'}/> 
