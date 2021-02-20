@@ -28,14 +28,14 @@ class CreateAccount extends React.Component {
 	}
 
 	componentDidMount() {
-		document.body.style.background = "linear-gradient(to right, #6930C3, transparent)";
+		document.body.style.backgroundImage = "url('/find-profile-background.jpg')";
 	}
 
 	render() {
 		return (
 			<div className="createAccount">
 				<div class="box"> 
-					<h1 style={{display: 'flex', justifyContent: 'center', paddingTop: '30px', color: '#5E60CE'}}>Create Account</h1>
+					<h1 style={{display: 'flex', justifyContent: 'center', paddingTop: '10px', color: '#5E60CE'}}>Create Account</h1>
 					<form style={{display: 'flex', flexDirection: 'column'}} onSubmit={this.submitForm}>
 						<input type="text" value={this.state.username} placeholder="Username" class="input-field" 
 							onChange={event => {this.setState({username: event.target.value})}}/>
