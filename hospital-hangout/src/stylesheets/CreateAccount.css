@@ -1,0 +1,62 @@
+.box {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	border-radius: 30px; 
+	border-color: #cecece; 
+	background-color: white;
+	box-shadow: 10px 10px 60px #a4a4a4; 
+	height: 700px; 
+	width: 600px; 
+	margin-top: 150px; 
+}
+
+.center {
+	display: flex; 
+	justify-content: center; 
+}
+
+.input-field {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 400px; 
+	height: 40px; 
+	border-radius: 5px; 
+	border-width: 1px; 
+	border-color: #cecece; 
+	font-size: 20px; 
+	margin-top: 30px; 
+}
+
+.submit-button {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 30px; 
+	width: 150px; 
+	height: 40px; 
+	background-color: #5E60CE; 
+	color: white; 
+	border-radius: 15px; 
+	border-width: 1px; 
+	border-color: #cecece; 
+	font-size: 20px; 
+}
+
+.description-field {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 400px; 
+	height: 200px; 
+	border-radius: 5px; 
+	border-width: 1px; 
+	border-color: #cecece; 
+	font-size: 20px; 
+	margin-top: 30px; 
+}
+
+.create-account-background {
+	background: linear-gradient(toright, #6930C3, transparent); 
+}
