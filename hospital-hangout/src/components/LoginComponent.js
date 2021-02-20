@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheets/LoginComponent.css'; 
 import CreateAccount from '../pages/CreateAccount'; 
 import { Link } from 'react-router-dom'; 
+import SignIn from './SignIn'; 
 
 class LoginComponent extends React.Component {
 	constructor(props) {
@@ -40,7 +41,9 @@ class LoginComponent extends React.Component {
 					<input type="submit" value="Submit" class="submit-button"/> 
 				</form>
 				<Link to="/create-account" style={{display: 'flex', justifyContent: 'center'}}>Don't have an account? Sign Up</Link>
-
+				<div class="googleSignIn">
+					<SignIn/>
+				</div>
 			</div>
 		); 
 	}
