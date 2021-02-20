@@ -47,8 +47,7 @@ class CreateAccount extends React.Component {
 							onChange={event => {this.setState({description: event.target.value})}}/>
 						<input type="submit" value="Submit" class="submit-button"/> 
 					</form>
-					<Link to="/" style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>Already Have an Account? Login Here</Link> 
-					<Link to="/find-profile" style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>Find Profile</Link> 
+					<Link to="/" style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>Already Have an Account? Login Here</Link>
 				</div>
 			</div>
 		); 
