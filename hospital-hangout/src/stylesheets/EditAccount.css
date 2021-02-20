@@ -1,0 +1,25 @@
+.edit-input-form {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	border-radius: 50px; 
+	border: 3px solid #6930C3; 
+	background-color: white;
+	box-shadow: 10px 10px 60px #a4a4a4; 
+	height: 600px; 
+	width: 600px; 
+	margin-top: 150px;  
+}
+
+.submit-edit {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 30px; 
+	width: 150px; 
+	height: 40px; 
+	background: linear-gradient(to right, #6930C3, #4EA8DE); 
+	color: white; 
+	border-radius: 15px; 
+	font-size: 20px; 
+}

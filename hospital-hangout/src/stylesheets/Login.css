@@ -1,0 +1,29 @@
+.login-page {
+	display: flex;  
+	flex-direction: row; 
+	flex-basis: 100%; 
+}
+
+.hospital-image {
+	width: 50%; 
+	height: 100vh; 
+}
+
+.login {
+	width: 50%; 
+	height: 100vh; 
+	background: linear-gradient(#6930C3, transparent);
+}
+
+.wrapper {
+	border-radius: 30px; 
+	border-color: #cecece; 
+	width: 700px; 
+	height: 650px; 
+	background-color: white;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 15%; 
+	box-shadow: 10px 10px 60px #a4a4a4; 
+}
