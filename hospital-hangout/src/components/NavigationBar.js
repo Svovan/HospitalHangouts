@@ -21,6 +21,11 @@ class NavigationBar extends React.Component {
 							Edit Account
 						</Link>
 					</div>
+					<div style={{marginLeft: '50px'}}>
+						<Link to="/general-chat" style={{color: 'white', textDecoration: 'none', fontSize: '20px', lineHeight: '50px'}}> 
+							General Chat
+						</Link>
+					</div>
 					
 				</div>
 			</div>
