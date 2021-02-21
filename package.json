@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "firebase": "^8.2.9",
     "jquery": "^3.5.1",
+    "react-firebase-hooks": "^2.2.0",
     "react-router-dom": "^5.2.0"
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheets/LoginComponent.css'; 
 import CreateAccount from '../pages/CreateAccount'; 
 import { Link } from 'react-router-dom'; 
+import SignIn from './SignIn'; 
 
 class LoginComponent extends React.Component {
 	constructor(props) {
@@ -37,10 +38,12 @@ class LoginComponent extends React.Component {
 				<form onSubmit={this.handleSubmit} style={{marginBottom: '30px'}}>
 					<input type="text" value={this.state.username} placeholder="Username" class="input-field" onChange={this.handleUsernameChange}/>
 					<input type="password" value={this.state.password} placeholder="Password" class="input-field" style={passwordStyle} onChange={this.handlePasswordChange}/>
-					<input type="submit" value="Submit" class="submit-button"/> 
+					<div class="login-action">
+						<SignIn/> 
+						<input type="submit" value="Submit" class="submit-button"/> 
+					</div>
 				</form>
 				<Link to="/create-account" style={{display: 'flex', justifyContent: 'center'}}>Don't have an account? Sign Up</Link>
-
 			</div>
 		); 
 	}

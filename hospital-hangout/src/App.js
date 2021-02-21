@@ -1,4 +1,3 @@
-
 import Login from './pages/Login'; 
 import CreateAccount from './pages/CreateAccount'; 
 import FindProfile from './pages/FindProfile'
@@ -8,6 +7,17 @@ import {
   Route, 
   Link, 
 } from "react-router-dom";
+import React from 'react';
+import firebase from './firebase'
+// import firebase from 'firebase/app';
+// import 'firebase/firestore';
+// import 'firebase/auth';
+import { useAuthState } from 'react-firebase-hooks/auth';
+// import { useCollectionData } from 'react-firebase-hooks/firestore';
+
+
+const auth = firebase.auth();
+const firestore = firebase.firestore();
 
 const App = () => {
   return (

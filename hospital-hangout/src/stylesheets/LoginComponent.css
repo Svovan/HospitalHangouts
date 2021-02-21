@@ -18,10 +18,15 @@
 	font-size: 20px; 
 }
 
-.submit-button {
-	display: block; 
+.login-action {
 	margin-left: auto; 
 	margin-right: auto;
+	display: flex; 
+	flex-direction: row; 
+	width: 400px; 
+}
+
+.submit-button {
 	margin-top: 30px; 
 	width: 150px; 
 	height: 40px; 

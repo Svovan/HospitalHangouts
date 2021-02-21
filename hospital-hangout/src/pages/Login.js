@@ -1,6 +1,7 @@
 import { findByLabelText } from '@testing-library/react';
 import React from 'react'; 
-import LoginComponent from '../components/LoginComponent'; 
+import LoginComponent from '../components/LoginComponent.js'; 
+import SignIn from '../components/SignIn.js'; 
 import '../stylesheets/Login.css'; 
 
 class Login extends React.Component {
