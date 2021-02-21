@@ -1,7 +1,5 @@
-import React from 'react'
-import React from 'react';
-import firebase from './firebase'
-import firebase from 'firebase/app';
+import React, { useRef, useState } from 'react';
+import firebase from '../firebase';
 import 'firebase/firestore';
 import 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -14,14 +12,14 @@ const firestore = firebase.firestore();
 //general chat
 function ChatRoom() {
     const dummy = useRef();
-    const messageRef = firestore.collection('messages');
+    const messagesRef = firestore.collection('messages');
     const query = messagesRef.orderBy('createdAt').limit(25);
 
     const [messages] = useCollectionData(query, {idField: 'id'});
     
     const [formValue, setFormValue] = useState('');
     
-    const sendMesage = async(e) => {
+    const sendMessage = async(e) => {
         e.preventDefault();
         const { uid, photoURL } = auth.currentUser;
         await messagesRef.add({
@@ -49,7 +47,7 @@ function ChatRoom() {
 }
 
 function ChatMessage(props) {
-    const {text, uid} = props.message;
+    const {text, uid, photoURL} = props.message;
     const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
     return (
         <div className={`message ${messageClass}`}>
