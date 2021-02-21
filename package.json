@@ -5,6 +5,5 @@
     "jquery": "^3.5.1",
     "react-firebase-hooks": "^2.2.0",
     "react-router-dom": "^5.2.0",
-    "heroku config":"set JS_RUNTIME_TARGET_BUNDLE=/app/my/custom/path/js/*.js"
   }
 }
