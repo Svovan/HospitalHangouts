@@ -1,0 +1,14 @@
+.google-sign-in {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 30px; 
+	width: 200px; 
+	height: 40px; 
+	background-color: #5E60CE; 
+	color: white; 
+	border-radius: 15px; 
+	border-width: 1px; 
+	border-color: #cecece; 
+	font-size: 20px; 
+}

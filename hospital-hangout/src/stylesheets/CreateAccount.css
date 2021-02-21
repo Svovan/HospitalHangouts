@@ -3,12 +3,12 @@
 	margin-left: auto; 
 	margin-right: auto;
 	border-radius: 30px; 
-	border-color: #cecece; 
+	border: 3px solid #6930C3; 
 	background-color: white;
 	box-shadow: 10px 10px 60px #a4a4a4; 
 	height: 700px; 
 	width: 600px; 
-	margin-top: 150px; 
+	margin-top: 100px; 
 }
 
 .center {
@@ -55,8 +55,4 @@
 	border-color: #cecece; 
 	font-size: 20px; 
 	margin-top: 30px; 
-}
-
-.create-account-background {
-	background: linear-gradient(toright, #6930C3, transparent); 
 }
