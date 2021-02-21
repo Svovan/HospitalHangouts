@@ -14,6 +14,7 @@ import firebase from './firebase'
 // import 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
 // import { useCollectionData } from 'react-firebase-hooks/firestore';
+import ChatRoom from './chat/ChatRoom';
 
 
 const auth = firebase.auth();
